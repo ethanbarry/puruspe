@@ -11,8 +11,11 @@ mod erfcx;
 mod erfcx_chebyshev_coeffs;
 mod faddeeva;
 mod faddeeva_taylor_coeffs;
+mod im_w_of_x;
+mod im_w_of_x_chebyshev_coeffs;
 
 const INV_SQRT_PI: f64 = 0.5641895835_4775628694; // Inverse square root of pi from WolframAlpha.
 
 pub use erfcx::erfcx;
 pub use faddeeva::w;
+pub use im_w_of_x::im_w_of_x;
